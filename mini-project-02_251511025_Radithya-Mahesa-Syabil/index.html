@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baking Bread - UMKM</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="logo">
+            <p class="logo-title">Baking Bread</p>
+        </div>
+        <button class="nav-toggle" id="tombol-nav" aria-expanded="false" aria-controls="nav-menu"
+            aria-label="Buka menu navigasi">
+            <span class="nav-toggle-bar" aria-hidden="true"></span>
+            <span class="nav-toggle-bar" aria-hidden="true"></span>
+            <span class="nav-toggle-bar" aria-hidden="true"></span>
+        </button>
+        <nav class="nav-container" id="nav-menu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#produk">Produk</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#hubungi">Hubungi Kami</a></li>
+            </ul>
+            <button class="theme-toggle" id="tombol-tema" aria-pressed="false"
+                aria-label="tema gelap">🌙</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section" id="home">
+            <div class="hero-text">
+                <h1>Selamat Datang di <span class="brand">Baking Bread</span></h1>
+                <p class="tagline">KeLieuranmu adalah keLieuran kami</p>
+            </div>
+
+            <div class="hero-content">
+                <article class="hero-left">
+                    <figure class="hero-image">
+                        <img src="assets/1.jpg" alt="Roti hangat buatan Baking Bread">
+                    </figure>
+
+                    <blockquote class="testimonial">
+                        <p><i>"Rotinya aman dikonsumsi"</i></p>
+                    </blockquote>
+
+                    <div class="profile">
+                        <div class="profile-icon"></div>
+                        <div class="profile-detail">
+                            <strong>Radithya Mahesa</strong><br>
+                            CEO
+                        </div>
+                    </div>
+
+                    <div class="feature-block">
+                        <h2>Kenapa Pilih Kami</h2>
+                        <ol class="feature-list">
+                            <li>Dibuat fresh setiap pagi tanpa tellus duis convallis tempus leo eu aenean sed. Sed diam
+                                urna tempor pulvinar vivamus fringilla lacus.</li>
+                            <li>Resep rumahan turun-temurun sejak 1978.</li>
+                            <li>Bisa pesan custom untuk acara dan pertemuan apapun.</li>
+                        </ol>
+                    </div>
+                </article>
+
+                <article class="hero-right">
+                    <h2>Cerita Kami</h2>
+                    <p>Baking Bread berawal dari dapur rumah kecil kecilan di Bandung pada tahun 1978.
+                        Kami percaya roti terbaik dibuat dengan sepenuh hati</p>
+                    <p>Setiap hari kami memanggang dalam jumlah tergantung mood agar rasa dan kesegarannya
+                        tetap terjaga sampai ke Dolor sit amet consectetur adipiscing elit quisque faucibus..</p>
+                    <a class="button" href="#produk">Lihat Produk Kami</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="products-section" id="produk">
+            <h2>Produk Kami</h2>
+            <div class="filter-bar" id="bar-filter" role="group" aria-label="Filter kategori produk">
+                <button class="filter-btn is-active" data-kategori="Semua" aria-pressed="true">Semua</button>
+                <button class="filter-btn" data-kategori="Roti Sweet" aria-pressed="false">Roti Sweet</button>
+                <button class="filter-btn" data-kategori="Roti Bread" aria-pressed="false">Roti Bread</button>
+                <button class="filter-btn" data-kategori="Roti Panggang" aria-pressed="false">Roti Panggang</button>
+            </div>
+            <div class="products-list" id="daftar-produk">
+                <!-- Dirender sama js -->
+            </div>
+        </section>
+
+        <section class="faq-section" id="faq">
+            <h2>FAQ</h2>
+            <div class="faq-list" id="daftar-faq">
+                <div class="faq-item">
+                    <h3>
+                        <button class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-1">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, id?
+                        </button>
+                    </h3>
+                    <div class="faq-panel" id="faq-panel-1" role="region" hidden>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores recusandae accusantium nesciunt quisquam repudiandae ex aperiam id nulla commodi possimus?</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <h3>
+                        <button class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-2">
+                            Lorem ipsum dolor sit amet consectetur?
+                        </button>
+                    </h3>
+                    <div class="faq-panel" id="faq-panel-2" role="region" hidden>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat blanditiis cumque eligendi.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <h3>
+                        <button class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-3">
+                            Lorem ipsum dolor sit amet?
+                        </button>
+                    </h3>
+                    <div class="faq-panel" id="faq-panel-3" role="region" hidden>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, quis? Nam, perspiciatis harum, placeat possimus.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <h3>
+                        <button class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-4">
+                            lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus?
+                        </button>
+                    </h3>
+                    <div class="faq-panel" id="faq-panel-4" role="region" hidden>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque recusandae quia fugiat, veritatis laudantium eos. Iste!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section" id="hubungi">
+            <h2>Hubungi Kami</h2>
+            <dl class="contact-list">
+                <div class="contact-item">
+                    <dt>Alamat</dt>
+                    <dd>Jl. Lorem Ipsum No 221, Kab. Dolor Sit Amet, Kec. Adipising Elit, Kota Bandung, Jawa Barat</dd>
+                </div>
+                <div class="contact-item">
+                    <dt>Telepon</dt>
+                    <dd>+62867676767</dd>
+                </div>
+            </dl>
+
+            <h3>Kirim Pesan</h3>
+            <form class="contact-form" id="form-kontak" novalidate>
+                <div class="form-group">
+                    <label class="form-label" for="input-nama">Nama</label>
+                    <input type="text" id="input-nama" class="form-input" required>
+                    <p class="form-error" id="error-nama" aria-live="polite"></p>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="input-email">Email</label>
+                    <input type="email" id="input-email" class="form-input" required>
+                    <p class="form-error" id="error-email" aria-live="polite"></p>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="input-pesan">Pesan</label>
+                    <textarea id="input-pesan" class="form-input" rows="4" required></textarea>
+                    <p class="form-error" id="error-pesan" aria-live="polite"></p>
+                </div>
+                <button type="submit" class="button">Kirim Pesan</button>
+            </form>
+            <div class="form-success" id="pesan-sukses" hidden>
+                <p>Pesan berhasil dikirim!</p>
+            </div>
+
+            <a class="button" href="https://www.instagram.com/rdthymhsa/" target="_blank" rel="noopener">
+                Instagram Kami</a>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p class="footer-brand">Baking Bread</p>
+        <p class="footer-copy">&copy;2026, Radithya Mahesa</p>
+    </footer>
+
+    <button class="back-to-top" id="tombol-atas" aria-label="Kembali ke atas" hidden>↑</button>
+    <script src="js/app.js" defer></script>
+</body>
+
+</html>

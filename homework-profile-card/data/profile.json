@@ -1,0 +1,16 @@
+{
+  "nama": "Radithya",
+  "bio": "Mahasiswa D3 Teknik Informatika",
+  "keterampilan": 
+  [
+    { 
+      "id": 1, "nama": "HTML" 
+    },
+    { 
+      "id": 2, "nama": "CSS" 
+    },
+    { 
+      "id": 3, "nama": "JavaScript" 
+    }
+  ]
+}
